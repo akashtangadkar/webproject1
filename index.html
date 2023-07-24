@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword"content="cars in 2022">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <title>The top 10 Expensive Cars</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        img,li,input,textarea{
+            transition:transform 2s;
+        }
+
+    </style>
+
+    <script>
+        $(document).ready(function () {
+            $("input").focus(function () {
+                $(this).css("background-color", "yellow");
+            });
+            $("input").blur(function () {
+                $(this).css("background-color", "lightgray");
+            });
+            $("input").change(function () {
+                $("#p3").html("input changed value is : " + $(this).val());
+            });
+            $("form").submit(function () {
+                alert("Submitted");
+            });
+
+            $("li,img,input,textarea").mouseenter(function () {
+                $(this).css("transform", "scale(1.1)");
+                $(this).css("background-color", "green");
+                $(this).css("color", "red");
+            });
+
+            $("img,input,textarea").mouseleave(function () {
+                $(this).css("transform", "scale(1)");
+                $(this).css("background-color", "white");
+                $(this).css("color", "black");
+            });
+            $("li").mouseleave(function () {
+                $(this).css("transform", "scale(1)");
+                $(this).css("background-color", "");
+                $(this).css("color", "black");
+            });
+            $("input[type-submit]").mouseenter(function () {
+                $(this).css("transform", "scale(1.1)");
+            });
+            $("input[type-submit]").mouseleave(function () {
+                $(this).css("transform", "scale(1)");
+            });
+            $('h1').mouseenter(function(){
+                $(this).css("backgroundcolor","yellow");
+                $(this).css("color", "blue");
+            });
+            $('h1').mouseleave(function(){
+                $(this).css("backgroundcolor","White");
+                $(this).css("color", "black");
+            });
+
+
+            $('h3').mouseenter(function(){
+                $(this).css("transform","scale(1.1)");
+                $(this).css("backgroundcolor","aqua");
+                $(this).css("color", "red");
+            });
+            $('h3').mouseleave(function(){
+                $(this).css("transform","scale(1)");
+                $(this).css("backgroundcolor","White");
+                $(this).css("color", "black");
+            });
+            $('h2').mouseenter(function(){
+                $(this).css("backgroundcolor","yellow");
+                $(this).css("color", "red");
+            });
+            $('h2').mouseleave(function(){
+                $(this).css("backgroundcolor","White");
+                $(this).css("color", "black");
+            });
+
+
+
+
+
+        });
+
+
+    </script>
+</head>
+
+<body class="bg-">
+    <div>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    </div>
+    <header class="bg-warning text-danger m-2 ">
+        <h1 class="text-center">
+            <marquee behavior="scroll" direction="left">The Top 10 Expensive Cars</marquee>
+        </h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top text-white m-2  ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <i class="fa fa-car"></i>logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home"><i class="fa fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog"><i class="fa fa-image"></i> Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutus"><i class="fa fa-user"></i> About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services"><i class="fa fa-list"></i> Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#Gallery" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-image"></i>
+                            Gallery
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#Gallery">Image</a></li>
+                            <li><a class="dropdown-item" href="#videogallery">Video</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactus"><i class="fa fa-phone"></i> Contact Us</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <section class="p-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="no1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="car3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="no5.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+
+    </section>
+    <hr>
+    <section id="blog" class="m-2">
+
+        <h1>The top 10 most expensive cars in the world in 2022 are as follows: Here are the world's top 10 most
+            expensive cars in 2022:
+        </h1>
+        <hr>
+        <div class="row">
+            <!-- car.no1 -->
+            <div class="col-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="no1.jpg" width="700" alt="loading">
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h2>01. Rolls-Royce Boat Tail - $28 million:</h2>
+                <p>In the list of the top 10 most expensive cars in the World, The Rolls-Royce Boat Tail is the World’s
+                    most expensive street-legal car, costing $28 million. Following this, only two more cars will be
+                    produced. Furthermore, the Rolls Royce Boat Tail is a 19-foot-long four-seater luxury car.
+                    Furthermore, instead of being convertible, its roof is completely removable. With the push of a
+                    button, the car’s rear lifts and opens an umbrella.
+
+                    The Rolls-Royce Boat Tail was also designed at the company’s Goodwood plant by the company’s
+                    specialized coach build division. Yachts from the 1920s and 1930s inspired its design. On the deck
+                    are cocktail tables with matching chairs to match Armand de Brignac champagne bottles, a complete
+                    Christophe tableware set, and two color-scheme refrigerators
+                </p>
+                <ul>
+                    <li><b>Engine:</b>V12 6.75 Biturbo.</li>
+                    <li><b>Horsepower:</b> 563 hp.</li>
+                    <li><b>High Speed:</b> 250 km/h.</li>
+                    <li><b>Price:</b> $28,000,000.</li>
+                </ul>
+
+
+
+            </div>
+        </div>
+        <hr>
+        <!-- car.no2 -->
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="no2.jpg" width="700" alt="loading">
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h2>02. Bugatti La Voiture Noire – $18,700,000:</h2>
+                <p>Bugatti’s luxury GT supercar is 2nd in the list of top 10 expensive cars in the world with price of
+                    $18.7 million. It debuted at the 2019 Geneva International Motor Show. It also has a 16-cylinder
+                    engine, which is unique to this vehicle. It’s not only mighty, but it’s also quite lovely.
+                    Furthermore, this one-of-a-kind model is inspired by the Bugatti Chiron, a quadruplicate of the
+                    Bugatti Type 57 SC Atlantic. By 2022, it will be one of the World’s top ten most expensive and
+                    fastest cars.
+                </p>
+                <ul>
+                    <li><b>Engine: </b>8.0L Quad Turbocharged W16</li>
+                    <li><b>Transmission:</b> 7-Speed Dual-Clutc</li>
+                    <li><b>Horsepower:</b> 1,500 hp</li>
+                    <li><b>Top Speed:</b> 261 mph (420 km/h)</li>
+                    <li><b>Price:</b>US$18,700,000</li>
+                </ul>
+
+            </div>
+        </div>
+        <hr>
+        <!-- car.no3 -->
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="no3.jpg" width="700" alt="loading">
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h2>03. Pagani Zonda HP Barchetta – $17,600,000:</h2>
+                <p>The Pagani Zonda HP Barchetta is one of the most expensive cars in the list of the top 10 most
+                    expensive cars in the world, a two-seater luxury sports car. It was also released in 2017 to
+                    commemorate company founder Horacio Pagani’s 60th birthday and Zonda’s 18th anniversary.
+                    Furthermore, the Zonda HP Barchetta has been priced at $17.5 million, making it one of the most
+                    expensive luxury cars in the World in 2022.
+
+                    A 789bhp 7.3-liter naturally aspirated V12 engine with a six-speed manual gearbox is also available.
+                    It can also go from zero to 100 km/h in 3.1 seconds.
+                <ul>
+                    <li><b>Displacement:</b> 7,291 cc (444.9 cu in)</li>
+                    <li><b>Peak Torque:</b>850 N⋅m (627 lb⋅ft)</li>
+                    <li><b>Top Speed:</b> 355 km/h (221 mph)</li>
+                    <li><b>Price:</b> US$17,600,000</li>
+                </ul>
+                </p>
+
+            </div>
+        </div>
+        <hr>
+        <!-- car.no4 -->
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="no4.jpg" width="700" alt="loading">
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h2>04. Rolls-Royce Sweptail – $12.8 million:</h2>
+                <p>The luxury car made its UK debut in May 2017 at the Concorsod’Eleganza Villa d’Este. The Director of
+                    Design, Gile Taylor, described the luxury car as “the automotive equivalent of Haute couture.”
+                    Sweptail was inspired by 1920s and 1930s car bodywork. The Sweptail shares similarities with the
+                    Rolls-Royce Phantom Coupé, which took four years to build. It features a 6.75L V12 engine with 338KW
+                    power and a ZF 8-speed automatic transmission. Additionally. It’s also considered a full-sized
+                    luxury vehicle.
+                <ul>
+                    <li><b>Engine:</b> 6.75 L V12.</li>
+                    <li><b>Power output:</b> 338 kW (453 bhp).</li>
+                    <li><b>Transmission:</b> ZF 8-speed automatic.</li>
+                    <li><b>Top Speed:</b> 155 mph (250 km/h).</li>
+                    <li><b>Price:</b> US$12,800,000.</li>
+                </ul>
+
+
+
+
+                </p>
+
+            </div>
+        </div>
+        <hr>
+        <!-- car.no5 -->
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="no5.jpg" width="700" alt="loading">
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h2>05. Bugatti Centodieci – $8.9 million:</h2>
+                <p>The Centodieci, which marked the company’s 110th anniversary, is another Bugatti entry on the list.
+                    With only ten examples produced, it also paid homage to Bugatti’s EB110. In true Bugatti fashion,
+                    this beast is equipped with an 8.0-liter W16 quad-turbo engine that produces 1,577bhp. It also
+                    weighs 20 kilograms less than the Chiron and accelerates from 0 to 100 km/h in 2.4 seconds. The
+                    Centodieci’s design language is sleeker and sharper than its siblings. The car’s headlamps, designed
+                    to look like eyes with swooping eyelashes, are particularly appealing.
+                <ul>
+                    <li><b>Engine :</b>8.0 L (488 cu in) quad-turbocharged W16</li>
+                    <li><b>Power output:</b>1,176 kW (1,600 PS; 1,578 hp)</li>
+                    <li><b>Transmission:</b> 7-speed dual-clutch</li>
+                    <li><b>Top Speed:</b> 236 mph (379 km/h)</li>
+                    <li><b>Price:</b> US$8,900,000</li>
+                </ul>
+                </p>
+
+            </div>
+        </div>
+        <hr>
+        <!-- car.no6 -->
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="no6.jpg" width="700" alt="loading">
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h2>06. Mercedes-Benz Maybach Exelero – $8.0 million:</h2>
+                <p></p>
+                The Mercedes-Benz Maybach Exelero is a luxury sports car with high performance. It had its world
+                premiere in 2005 at Berlin’s Temprodrome. It is expected to be one of the top ten most expensive cars in
+                the World by 2022, with a price tag of $8 million. The Accelero is also powered by a Maybach twin-turbo
+                V12 engine, which is currently inactive. It’s also mated to a 5-speed automatic transmission with
+                5G-Tronic. The top speed of the Maybach Exelero is 351 km/h, and the acceleration time from 0 to 100
+                km/h in 4.4 seconds.
+                <ul>
+                    <li><b>Engine:</b>9 L 5908 cc (361 cu in) Twin-turbocharged V12</li>
+                    <li><b>Torque:</b> 752 ft-lb (1,020 N⋅m) of torque @ 2500 Rpm</li>
+                    <li><b> Top Speed:</b> 218 mph (351 km/h)</li>
+                    <li><b>Price:</b> US$8,000,000</li>
+                </ul>
+
+            </div>
+        </div>
+        <hr>
+        <!-- car.no7 -->
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="no7.jpg" width="700" alt="loading">
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h2>07. Bugatti Divo – $6.0 million:</h2>
+                <p>
+                    The Bugatti Divo is a mid-engine luxury sports car. With a price tag of $6,000,000, it is the
+                    World’s seventh most expensive car in 2022 in the list of the World’s 10 most expensive cars. Its
+                    design and production are the responsibility of Bugatti Automobiles SAS. Albert Divo, a French
+                    racing driver, is also honored with the car’s name, and he won the Targa Florio race twice for
+                    Bugatti in the 1920s. In addition, the Bugatti Divo is 8.0 seconds faster in the quarter-mile than
+                    the Chiron. It generates 456 kg of downforce at top speed, which is 90 kg more than the Chiron. A
+                    W16 quad-turbocharged engine and a 7-speed dual-clutch transmission are standard. It is also Bugatti
+                    Automobiles’ third most expensive model.
+                <ul>
+                    <li><b>Transmission:</b> 7-speed dual-clutch</li>
+                    <li><b>Top Speed:</b> 236 mph (380 km/h)</li>
+                    <li><b>Price:</b> US$6,000,000</li>
+
+                </ul>
+                </p>
+
+
+            </div>
+
+        </div>
+        <hr>
+        <!-- car.no8 -->
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="no8.jpg" width="700" alt="loading">
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h2>08. Bugatti Chiron Super Sport 300+ – $5.74 million:</h2>
+                <p>The Bugatti Chiron Super Sport 300+ is top 8 in the list of 10 of the most expensive cars in the
+                    World, with a luxury two-seater sports car that costs $5.74 million. It is Bugatti’s first vehicle
+                    to reach 300 mph. It is powered by a W16 8.0-liter engine with a power output of 1.176 kW/1.600 HP.
+                    The Chiron, on the other hand, has over 100 HP. Furthermore, the Chiron Super Sport 300+ became the
+                    first hyper sports car to reach 300 mph on August 2, 2019. Bugatti also set a new TUV-certified
+                    speed record during this run. No one had ever created a series in such a short period.
+                <ul>
+                    <li><b>Engine Displacement:</b> 7993 cc</li>
+                    <li><b>Max Power (bhp@rpm):</b> 1479 bhp@6700rpm</li>
+                    <li><b>Max Torque (nm@rpm):</b> 1600 Nm@2000-6000rpm</li>
+                    <li><b>Top Speed:</b> 304 mph (489 km/h)</li>
+                    <li><b>Price:</b> $5,740,000 </li>
+                </ul>
+
+
+
+
+                </p>
+
+            </div>
+        </div>
+        <hr>
+        <!-- car.no9 -->
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="no9.jpg" width="700" alt="loading">
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h2>09. Koenigsegg CCXR Trevita – $4,800,000:</h2>
+                <p>In September 2009, Swedish automaker Koenigsegg Automotive AB announced KOENIGSEGG as a
+                    limited-edition model. Trevita represents three white and CCXR (Competition Coupé X, with the X
+                    commemorating the 10th anniversary of the completion and test drive of the first CC prototype in
+                    1996). This vehicle was created to become a worldwide vehicle. As a result, it is designed and
+                    engineered to comply with international safety and environmental regulations, particularly to enter
+                    the US automobile market. The 4.7L twin-supercharged V8 engine in the CCXR TREVITA produces 1,018
+                    horsepower at 7,000 rpm with torque outputs of 920 Nm (679 lb-ft) and 1,060 Nm (782 lb-ft) at 5600
+                    pm. Over 400 km/h top speed (249 mph).
+                <ul>
+                    <li><b>Engine:</b> 4800 cc</li>
+                    <li><b> Displacement:</b>8 L (292.9 cu in)</li>
+                    <li><b>Top Speed:</b> 254 mph (410 km/h)</li>
+                    <li><b>Price:</b> $4,800,000</li>
+                </ul>
+
+
+
+
+                </p>
+
+            </div>
+        </div>
+        <hr>
+        <!-- car.no10 -->
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <img class="img-fluid" src="no10.jpg" width="700"  alt="loading">
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h2>10. Lamborghini Veneno – $4.5 million:</h2>
+                <p>The Lamborghini Veneno is one of the most expensive in the World’s top 10 most expensive cars with
+                    high-performance luxury sports cars produced by the Italian automobile manufacturer Lamborghini. The
+                    Veneno was designed to celebrate Lamborghini’s 50th anniversary. With a price tag of $4.5 million,
+                    it is also the World’s tenth most expensive car in 2022.
+
+                    Furthermore, on regular roads, the Lamborghini Veneno Roadster resembles the aerodynamic efficiency
+                    of a racing prototype. This supercar also has optimal aerodynamics for tight turn stability and
+                    racing prototype-like performance. This vehicle is great for fans of sports cars.
+                <ul>
+                    <li><b>Displacement:</b>498 cm³ (396.5 cu in)</li>
+                    <li><b>Engine:</b> 5 L L539 V12</li>
+                    <li><b> Power:</b> 750 CV (552 kW) @ 8.400 rpm</li>
+                    <li><b>Torque:</b> 690 Nm (507 lb.-ft.) @ 5.500 rpm</li>
+                    <li><b>Top Speed:</b> 221 mph (356 km/h)</li>
+                    <li><b>Price:</b> $4,500,000</li>
+                </ul>
+
+
+
+
+
+                </p>
+
+            </div>
+        </div>
+
+
+    </section>
+    <hr>
+    <section id="aboutus" class="m-2">
+        <h1 class="text-center">About Us</h1>
+        Mail us : akashtangadkarhp15s@.com
+        <h1>10 most expensive cars in the World</h1>
+        <hr>
+        <p>Various organizations annually issue car ratings based on a vehicle's performance, design, and safety. These
+            factors, among others, influence the purchasing decisions of future car buyers. This post has compiled a
+            list of the top ten most expensive cars in 2022. Continue reading if you want to find your dream car brand
+            on this list.
+
+            Automobile manufacturers continue to astound us with lavish and breath-taking vehicles that we have never
+            seen before. From Lamborghini to Rolls-Royce, these vehicles are the pinnacle of luxury, with powerful
+            engines, luxurious interiors, and cutting-edge features that ensure a smooth ride. It's worth noting that
+            the most luxurious automobiles are only available in limited editions that aren't released monthly.
+
+
+            People rush to get the latest models as soon as they are released, so these vehicles are rarely available
+            for long. This article will provide information on the most current cars that will be the most expensive in
+            2022. Perhaps your favourite automaker is included. Read on!</p>
+        <hr>
+
+    </section>
+    <section id="services" class="our services">
+        <h1 class="text-center">Our Services</h1>
+        <div class="row">
+            <div class="card-group">
+                <div class="card">
+                    <img src="no4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="no7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="no10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <section id="Gallery" class="m-2">
+
+        <h1 class="text-center">Gallery</h1>
+        <div class="row">
+            <div class="col-6 col-lg-3 ">
+                <img class="m-1 img-fluid" src="car3.jpg" alt="">
+
+            </div>
+            <div class="col-6 col-lg-3 ">
+                <img class="m-1 img-fluid" src="car2.jpg" alt="">
+
+            </div>
+            <div class="col-6 col-lg-3 ">
+                <img class="m-1 img-fluid" src="car4.jpg" alt="">
+
+            </div>
+            <div class="col-6 col-lg-3 ">
+                <img class="m-1 img-fluid" src="no9.jpg" alt="">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-lg-3 ">
+                <img class="m-1 img-fluid" src="no1.jpg" alt="">
+
+            </div>
+            <div class="col-6 col-lg-3 ">
+                <img class="m-1 img-fluid" src="no2.jpg" alt="">
+
+            </div>
+            <div class="col-6 col-lg-3 ">
+                <img class="m-1 img-fluid" src="no3.jpg" alt="">
+
+            </div>
+            <div class="col-6 col-lg-3">
+                <img class="m-1 img-fluid" src="no4.jpg" alt="">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-lg-3 ">
+                <img class="m-1 img-fluid" src="no5.jpg" alt="">
+
+            </div>
+            <div class="col-6 col-lg-3 ">
+                <img class="m-1 img-fluid" src="no6.jpg" alt="">
+
+            </div>
+            <div class="col-6 col-lg-3 ">
+                <img class="m-1 img-fluid" src="no7.jpg" alt="">
+
+            </div>
+            <div class="col-6 col-lg-3 ">
+                <img class="m-1 img-fluid" src="no8.jpg" alt="">
+
+            </div>
+        </div>
+    </section>
+    <section id="videogallery">
+        <h1 class="text-center">Video Gallery</h1>
+        <div class="row">
+            <div class="col-12 col-lg-3">
+                <video controls src=""></video>
+
+            </div>
+            <div class="col-12 col-lg-3">
+                <video controls src=""></video>
+
+            </div>
+            <div class="col-12 col-lg-3">
+                <video controls src=""></video>
+
+            </div>
+            <div class="col-12 col-lg-3">
+                <video controls src=""></video>
+
+            </div>
+        </div>
+
+
+    </section>
+    <hr>
+
+    </section>
+    <section id="contactus" class="m-2">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="row">
+            <div class="col-12 col-lg-6 container-fluid">
+                <h3 class="text-center">Google map</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15078.239067739252!2d74.20347595!3d19.12695945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1676614890090!5m2!1sen!2sin"
+                    width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+
+
+            </div>
+            <div class="col-12 col-lg-6 bg-white rounded container-fluid ">
+                <form action="" method="post" onsubmit="return checkvalidation()">
+                    <h3 class="text-center"> Inquiry Form </h3>
+                    <div class="row">
+                        <div class="col-5">
+                            <label for="name"> Enter Name</label>
+                        </div>
+                        <div class="col-5">
+                            <input class="rounded m-2" type="text" id="name" class="form-control"
+                                placeholder="Enter Name">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-5">
+                            <label for="Email"> Email</label>
+                        </div>
+                        <div class="col-5">
+                            <input class="rounded m-2" type="email" id="email" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5">
+                            <label for="Contact"> Contact No</label>
+                        </div>
+                        <div class="col-5">
+                            <input class="rounded m-2" type="tel" id="contact" class="form-control"
+                                placeholder="Contact No">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-5">
+                            <label for="message"> Message</label>
+                        </div>
+                        <div class="col-5">
+                            <textarea class="rounded m-2" name="message" id="message" class="form-control" cols="20"
+                                rows="6" placeholder="message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col">
+                            <input class="rounded m-2 bg-primary text-white" type="submit" value="Submit">
+
+                            <input class="rounded m-2 bg-danger text-white" type="reset" value="Reset">
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white m-2 pb-2">
+        <h1 class="text-center ">Footer</h1>
+        <p class="text-center"> Developed by akashtangadkar @2023. All rights are Reserved <i
+                class="fa fa-copyright"></i>
+        </p>
+    </footer>
+    <script>
+        function checkvalidation() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById("email").value;
+            var contact = document.getElementById("contact").value;
+            var message = document.getElementById("message").value;
+
+            if (name == '') {
+                alert('Please Enter Your Name');
+                document.getElementById('name').focus();
+                return false;
+
+            }
+            else if (email == '') {
+                alert('Please Enter Email Id');
+                document.getElementById('email').focus();
+                return false;
+
+            }
+            else if (contact == '') {
+                alert('Please Enter Your Contact No.');
+                document.getElementById('contact').focus();
+                return false;
+
+            }
+            else if (message == '') {
+                alert('Please Enter Your Comment');
+                document.getElementById('message').focus();
+                return false;
+
+            }
+            else {
+                alert('Your inquiry is Succesfull')
+                return true;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
